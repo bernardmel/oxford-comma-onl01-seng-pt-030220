@@ -1,7 +1,4 @@
 def oxford_comma(array)
-["kiwi"].first
-end
-
-def oxford_comma(array)
-  ["kiwi", "durian"]
+if array.size ==1
+  return array[0]
 end
