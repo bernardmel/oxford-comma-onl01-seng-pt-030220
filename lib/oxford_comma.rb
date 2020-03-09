@@ -5,6 +5,8 @@ if array.size ==1
 elsif array.size ==2
   return array.join (" and ")
 
+else array.size ==3
+  return array,join (, )
 
 end
 end
