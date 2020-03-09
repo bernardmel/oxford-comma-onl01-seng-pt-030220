@@ -6,7 +6,7 @@ elsif array.size ==2
   return array.join (" and ")
 
 else array.size ==3
-  return array,join (, ) + ", and"
+  return array.joing(", ") + (", and")
 
 end
 end
