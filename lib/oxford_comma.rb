@@ -9,7 +9,7 @@ else array.size ==3
   return array[0..1].join(", ") + ", and " + array[2]
 
 else array.size ==5
-  return array[0..4].join(", ") + ", and " + array[5]
+  return array[0..3].join(", ") + ", and " + array[4]
 
 end
 end
