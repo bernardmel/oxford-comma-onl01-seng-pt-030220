@@ -8,8 +8,8 @@ elsif array.size ==2
 elsif array.size ==3
   return array[0..1].join(", ") + ", and " + array[2]
 
-else array.size ==5
-  return array[0..4].join(", ") + ", and " + array[5]
+else array.size ==4
+  return array[0..3].join(", ") + ", and " + array[4]
 
 end
 end
