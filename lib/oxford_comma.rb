@@ -10,7 +10,8 @@ else array.size ==3
 
 end
 
-def array.size ==5
+def oxford_comma(array)
+  array.size ==5
   return array[0..4].join(", ") + ", and " + array[5]
 
 end
